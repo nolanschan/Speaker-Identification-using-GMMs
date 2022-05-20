@@ -30,7 +30,7 @@ The original documentation/tutorial can be found <a href="https://appliedmachine
 
 The <a href="https://ai.googleblog.com/2017/08/launching-speech-commands-dataset.html">Speech Commands Dataset</a> from TensorFlow and Google AIY was used for this project.
 
-This dataset was used instead of the VoxForge dataset in the original tutorial because I wanted to have clips of the same words spoken by different speakers in order to show the differences/similarities in the waveforms and spectrograms and discuss the concept of "stochastic self-similiarity" as related to Fractals.
+This dataset was used instead of the VoxForge dataset in the original tutorial because I wanted to have clips of the same words spoken by different speakers in order to show the differences/similarities in the waveforms and spectrograms, and discuss the concept of "stochastic self-similiarity" as related to Fractals.
 
 _ _
 

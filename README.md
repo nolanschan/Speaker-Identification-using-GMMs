@@ -42,10 +42,12 @@ In order to run this code:
 Note : Directory path used for train and test data in code train_models.py and test_speaker.py needs to be properly set depending upon the path where you download the data-set.
 
 
-## Future Work
+## Results and Future Work
 
-Due to the small dataset used, the model was only successful about 2/3 of the time at identifying the speaker. To improve the performance, more voice samples (available in the main Speech Commands Dataset) will likely be needed for training.
+Due to the small dataset used (about 5-13 seconds, including silence, of voice clips per speaker), in general the model is only successful about 2/3 of the time at identifying the speaker. The only exception is when the model is trained on the same word (4x) used for testing. In such cases, even though the test clip is previously unseen, the model is able to identify the speaker 100% of the time.
 
-Other ML/DL models could be implemented instead / in addition to GMM.
+To improve performance, more voice samples (available in the main Speech Commands Dataset) will likely be needed for training. Data can also be augmented (for example by introducing noise) in order to increases the robustness of the model. 
 
-It should also be possible to extend this model to perform speech recognition and speaker verification.
+Other ML/DL algorithms could be implemented instead/in addition to GMM.
+
+It should also be possible to extend this model to perform speech recognition and/or speaker verification.

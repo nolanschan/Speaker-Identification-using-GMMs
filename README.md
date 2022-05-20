@@ -1,15 +1,13 @@
 # Speaker-identification-using-GMMs
 
-Wishing to learn more about Python and ML, I did the final project for my "Fractals in Engineering" course on speaker identification using Python and ML.
+Wishing to learn more about Python and Machine Learning, I did the final project for my "Fractals in Engineering" course on speaker identification using Python and ML.
 
-This is a fork of Abhijeet Kumar's original code.
+The original code was written by Abhijeet Kumar. (<a href = "https://github.com/abhijeet3922/Speaker-identification-using-GMMs">Repository here</a>.)
 
-It uses popular ML technique GMM to train speaker identification models.
-
+It uses the popular Machine Learning technique Gaussian Mixture Models (GMM) to train speaker identification models.
 
 The original documentation/tutorial can be found <a href="https://appliedmachinelearning.wordpress.com/2017/11/14/spoken-speaker-identification-based-on-gaussian-mixture-models-python-implementation/">here</a>.
 
-The original repository can be found <a href = "https://github.com/abhijeet3922/Speaker-identification-using-GMMs">here</a>.
 
 
 ## Modifications
@@ -47,5 +45,7 @@ Note : Directory path used for train and test data in code train_models.py and t
 ## Future Work
 
 Due to the small dataset used, the model was only successful about 2/3 of the time at identifying the speaker. To improve the performance, more voice samples (available in the main Speech Commands Dataset) will likely be needed for training.
+
+Other ML/DL models could be implemented instead / in addition to GMM.
 
 It should also be possible to extend this model to perform speech recognition and speaker verification.

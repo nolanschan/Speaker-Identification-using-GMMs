@@ -2,7 +2,7 @@
 
 Wishing to learn more about Python and Machine Learning, I did the final project for my "Fractals in Engineering" course on speaker identification using Python and ML.
 
-The original code was written by Abhijeet Kumar. (<a href = "https://github.com/abhijeet3922/Speaker-identification-using-GMMs">Repository here</a>.)
+The base code was written by Abhijeet Kumar. (<a href = "https://github.com/abhijeet3922/Speaker-identification-using-GMMs">Repository here</a>.)
 
 It uses the popular Machine Learning technique Gaussian Mixture Models (GMM) to train speaker identification models.
 

@@ -2,6 +2,8 @@
 
 Wishing to learn more about Python and Machine Learning, I did the final project for my "Fractals in Engineering" course on speaker identification using Python and ML.
 
+_ _
+
 The base code was written by Abhijeet Kumar. (<a href = "https://github.com/abhijeet3922/Speaker-identification-using-GMMs">Repository here</a>.)
 
 It uses the popular Machine Learning technique Gaussian Mixture Models (GMM) to train speaker identification models.
@@ -21,6 +23,7 @@ Additional code has been added to allow for visualization of the data waveform, 
 
 The <a href="https://ai.googleblog.com/2017/08/launching-speech-commands-dataset.html">Speech Commands Dataset</a> from TensorFlow and Google AIY was used for this project.
 
+_ _
 
 6 speakers were randomly selected based on the number of voice clips available.
 
@@ -45,6 +48,8 @@ Note : Directory path used for train and test data in code train_models.py and t
 ## Results and Future Work
 
 Due to the small dataset used (about 5-13 seconds, including silence, of voice clips per speaker), in general the model is only successful about 2/3 of the time at identifying the speaker. The only exception is when the model is trained on the same word (4x) used for testing. In such cases, even though the test clip is previously unseen, the model is able to identify the speaker 100% of the time.
+
+_ _
 
 To improve performance, more voice samples (available in the main Speech Commands Dataset) will likely be needed for training. Data can also be augmented (for example by introducing noise) in order to increases the robustness of the model. 
 

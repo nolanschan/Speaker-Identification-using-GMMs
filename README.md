@@ -1,5 +1,7 @@
 # Speaker Identification using GMMs #
 
+
+
 ## About ##
 
 Wishing to learn about Python and Machine Learning, I did the final project for my "Fractals in Engineering" course on speaker identification using Python and ML.
@@ -8,7 +10,7 @@ While there're many great ML/DL speaker identification projects out there, since
 
 This project takes voice clips, extracts Mel-Frequency Cepstral Coefficients (MFCC) as features, and uses Gaussian Mixture Model (GMM) for model-training.
 
-_ _
+## Reference/Credit ##
 
 The base code was written by Abhijeet Kumar. (<a href = "https://github.com/abhijeet3922/Speaker-identification-using-GMMs">Repository here</a>.)
 
@@ -17,11 +19,11 @@ It uses the popular Machine Learning technique Gaussian Mixture Models (GMM) to 
 The original documentation/tutorial can be found <a href="https://appliedmachinelearning.wordpress.com/2017/11/14/spoken-speaker-identification-based-on-gaussian-mixture-models-python-implementation/">here</a>.
 
 
-
 ## Modifications ##
 
 - This version has been updated to run on Python 3.
 - Additional code has been added to allow for visualization of the data waveform, spectrogram, and Mel frequency spectorgram.
+
 
 
 ## Dataset ##
@@ -41,6 +43,7 @@ Training data: Up to 11 voice clips/speaker were used, and included the words "y
 Test data: One unseen voice clip ("no") for the same 6 speakers were tested. 
 
 
+
 ## Installation ##
 
 In order to run this code:
@@ -50,6 +53,7 @@ In order to run this code:
 3.  pip install librosa (for data visualization)
 
 Note : Directory path used for train and test data in code train_models.py and test_speaker.py needs to be properly set depending upon the path where you download the data-set.
+
 
 
 ## Results and Future Work ##

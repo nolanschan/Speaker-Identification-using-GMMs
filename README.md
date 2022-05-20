@@ -6,11 +6,15 @@ This is a fork of Abhijeet Kumar's original code.
 
 It uses popular ML technique GMM to train speaker identification models.
 
+
 The original documentation/tutorial can be found here.
+
 https://appliedmachinelearning.wordpress.com/2017/11/14/spoken-speaker-identification-based-on-gaussian-mixture-models-python-implementation/
 
 The original repository can be found here.
+
 https://github.com/abhijeet3922/Speaker-identification-using-GMMs
+
 
 # Modifications
 
@@ -18,10 +22,13 @@ This version has been updated to run on Python 3.
 
 Additional code has been added to allow for visualization of the data waveform, spectrogram, and Mel frequency spectorgram.
 
+
 # Data-set:
 
 The Speech Commands Dataset from TensorFlow and Google AIY was used for this project.
+
 https://ai.googleblog.com/2017/08/launching-speech-commands-dataset.html
+
 
 6 speakers were randomly selected based on the number of voice clips available.
 
@@ -31,6 +38,7 @@ Training data: Up to 11 voice clips/speaker were used, and included the words "y
 
 Test data: One unseen voice clip ("no") for the same 6 speakers were tested. 
 
+
 # Installation
 
 You need to install only these (tested with):
@@ -39,6 +47,7 @@ You need to install only these (tested with):
     3. pip install librosa (for data visualization)
 
 Note : Directory path used for train and test corpus in code train_models.py and test_speaker.py needs to be properly set depending upon the path where you download the data-set.
+
 
 # Future Work
 

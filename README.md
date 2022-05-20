@@ -1,6 +1,12 @@
-# Speaker-identification-using-GMMs
+# Speaker Identification using GMMs #
 
-Wishing to learn more about Python and Machine Learning, I did the final project for my "Fractals in Engineering" course on speaker identification using Python and ML.
+## About ##
+
+Wishing to learn about Python and Machine Learning, I did the final project for my "Fractals in Engineering" course on speaker identification using Python and ML.
+
+While there're many great ML/DL speaker identification projects out there, since I only had basic Python skills and my prior knowledge about ML was mostly broad and conceptual, I decided to go with something that I would be able to understand quickly and explain to a class that might not be familiar with ML.
+
+This project takes voice clips, extracts Mel-Frequency Cepstral Coefficients (MFCC) as features, and uses Gaussian Mixture Model (GMM) for model-training.
 
 _ _
 
@@ -12,16 +18,17 @@ The original documentation/tutorial can be found <a href="https://appliedmachine
 
 
 
-## Modifications
+## Modifications ##
 
-This version has been updated to run on Python 3.
+- This version has been updated to run on Python 3.
+- Additional code has been added to allow for visualization of the data waveform, spectrogram, and Mel frequency spectorgram.
 
-Additional code has been added to allow for visualization of the data waveform, spectrogram, and Mel frequency spectorgram.
 
-
-## Data-set:
+## Dataset ##
 
 The <a href="https://ai.googleblog.com/2017/08/launching-speech-commands-dataset.html">Speech Commands Dataset</a> from TensorFlow and Google AIY was used for this project.
+
+This dataset was used instead of the VoxForge dataset in the original tutorial because I wanted to have clips of the same words spoken by different speakers in order to show the differences/similarities in the waveforms and spectrograms and discuss the concept of "stochastic self-similiarity" as related to Fractals.
 
 _ _
 
@@ -34,7 +41,7 @@ Training data: Up to 11 voice clips/speaker were used, and included the words "y
 Test data: One unseen voice clip ("no") for the same 6 speakers were tested. 
 
 
-## Installation
+## Installation ##
 
 In order to run this code:
 
@@ -45,7 +52,7 @@ In order to run this code:
 Note : Directory path used for train and test data in code train_models.py and test_speaker.py needs to be properly set depending upon the path where you download the data-set.
 
 
-## Results and Future Work
+## Results and Future Work ##
 
 Due to the small dataset used (about 5-13 seconds, including silence, of voice clips per speaker), in general the model is only successful about 2/3 of the time at identifying the speaker. The only exception is when the model is trained on the same word (4x) used for testing. In such cases, even though the test clip is previously unseen, the model is able to identify the speaker 100% of the time.
 
